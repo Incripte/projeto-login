@@ -52,10 +52,18 @@ section#login div#imagem {
 section#login div#formulario {
     display: block;
     padding: 10px;
-
 }
 
-/* ---------------------------------------------- MEDIA ----------------------------------------------*/
+section#formulario h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario p {
+    font-size: 0.8em;
+}
+
+/* ---------------------------------------------- MIDIA ----------------------------------------------*/
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
@@ -98,6 +106,17 @@ section#login div#formulario {
         float: right;
         width: 50%;
     }
+
+    section#formulario h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+
+    div#formulario p {
+        font-size: 1.2em;
+    }
+    
 
 }
 
